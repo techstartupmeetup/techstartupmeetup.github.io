@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Tech Startup Meetup</title>
+  <title>Contact - Company Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -45,7 +45,6 @@
     <div class="container d-flex align-items-center">
 
       <img src="assets/img/techstartupmeetup_logo.png" alt="" width="200px" class="img-fluid">
-	  <!--<h1 class="logo me-auto"><a href="index.html"><span>Tech</span>Startup Meetup</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -71,64 +70,29 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <main id="main">
 
-      <div class="carousel-inner" role="listbox">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Welcome to <span>Tech Startup Meetup</span></h2>
-              <p>Navigating the funding landscape made easy. Get the capital you need to grow and succeed.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Tech Startup Hub</h2>
-              <p>Connect with angel investors and secure early-stage funding for your startup.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Funding made simple for your tech startup</h2>
-              <p>Streamline the funding process and secure the capital you need to fuel your growth.</p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
-            </div>
-          </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Contact</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Contact</li>
+          </ol>
         </div>
 
       </div>
+    </section><!-- End Breadcrumbs -->
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
+    <!-- ======= Contact Section ======= -->
+    <div class="map-section">
+      <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
     </div>
-  </section><!-- End Hero -->
 
-  <main id="main">
-  
-  
-	<section id="services" class="contact">
+    <section id="contact" class="contact">
       <div class="container">
 
         <div class="row justify-content-center" data-aos="fade-up">
@@ -139,20 +103,20 @@
               <div class="row">
                 <div class="col-lg-4 info">
                   <i class="bi bi-geo-alt"></i>
-                  <h4>Year Established:</h4>
-                  <p>2016</p>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street<br>New York, NY 535022</p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-envelope"></i>
-                  <h4>Number of members:</h4>
-                  <p>Over than 100</p>
+                  <h4>Email:</h4>
+                  <p>info@example.com<br>contact@example.com</p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-phone"></i>
-                  <h4>Supporting organizations:</h4>
-                  <p>CWK Global Group, Unicorn.Events, FasterCapital, Internet Initiatives Development Fund (IIDF), Supreme Incubator Private Limited</p>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
                 </div>
               </div>
             </div>
@@ -161,69 +125,36 @@
 
         </div>
 
+        <div class="row mt-5 justify-content-center" data-aos="fade-up">
+          <div class="col-lg-10">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
       </div>
     </section><!-- End Contact Section -->
-  
-	<!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right">
-            <h2>Funding made simple for your tech startup</h2>
-            <h3>Streamline the funding process and secure the capital you need to fuel your growth.</h3>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <p>
-              Tech Startup Hub is your one-stop platform for connecting with angel investors and securing early-stage funding. 
-			  With our comprehensive resources and expert guidance, we simplify the complex funding landscape, allowing you to 
-			  focus on what matters most - building and scaling your tech startup.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Angel Fund</li>
-              <li><i class="ri-check-double-line"></i> Seed Fund</li>
-              <li><i class="ri-check-double-line"></i> Pre-series A Fund</li>
-            </ul>
-            <p class="fst-italic">
-				Connect with angel investors and secure early-stage funding for your startup.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-	
-	<!-- ======= About Us Section ======= -->
-	<!--
-    <section id="about-us" class="about-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-	
 
   </main><!-- End #main -->
 
